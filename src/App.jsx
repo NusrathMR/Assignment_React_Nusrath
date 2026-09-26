@@ -1,12 +1,14 @@
 import './App.css';
-import ComponentA from "./component/ComponentA.jsx"
+import UseState from './component/UseState.jsx';
+import UseEffect from './component/UseEffect.jsx';
 
 function App() {
 
   return (
    
      <div>
-        <ComponentA></ComponentA>
+        <UseState></UseState>
+        <UseEffect></UseEffect>
      </div>
 
   )
