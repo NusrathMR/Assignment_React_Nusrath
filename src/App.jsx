@@ -2,7 +2,8 @@ import './App.css';
 // import UseState from './component/UseState.jsx';
 // import UseEffect from './component/UseEffect.jsx';
 import ComponentA from './component/UseContext/ComponentA';
-import HomeComponent from './component/studentInfoApp/HomeComponent';
+// import HomeComponent from './component/studentInfoApp/HomeComponent';
+import UseRef from './component/UseRef';
 function App() {
 
   return (
@@ -12,7 +13,9 @@ function App() {
         <UseEffect></UseEffect> */}
 
         {/* <ComponentA></ComponentA> */}
-        <HomeComponent></HomeComponent>
+        {/* <HomeComponent></HomeComponent> */}
+        <UseRef></UseRef>
+
      </div>
 
   )
